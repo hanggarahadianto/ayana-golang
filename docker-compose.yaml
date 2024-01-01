@@ -1,0 +1,12 @@
+# docker-compose.yml
+version: '3'
+
+services:
+  ayana:
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=7000
+          
